@@ -84,3 +84,43 @@ header form button {
     border: none;
     color: white;
 }
+
+
+#hero {
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(232,217,217,.3);
+    text-align: center;
+}
+
+#hero article {
+    max-width: 400px;
+}
+
+#see-plans-btn,
+#join-for-free-btn {
+    display: inline-block;
+    padding: 16px 32px;
+    border: none;
+    background: none;
+    text-decoration: none;
+}
+
+#see-plans-btn {
+    background: #FB3B49;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+    color: white;
+    margin: 1rem;
+}
+
+#join-for-free-btn {
+    color: black;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
