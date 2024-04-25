@@ -133,11 +133,40 @@ section:nth-of-type(2) h1 {
     margin-top: 4rem;
     font-size: 2.5rem;
     margin-bottom: 1rem;
-
 }
+
 section:nth-of-type(2) article {
     max-width: 700px;
 }
+
 section:nth-of-type(2) img {
     width: 256px;
+}
+
+#features {
+    display: flex;
+    margin: 0 1rem;
+    max-width: 1024px;
+}
+#features img {
+    width: 30px;
+}
+
+#features div {
+    text-align: left;
+    padding: 1rem;
+}
+
+#features h3 {
+    color: #ED1C24
+}
+
+#create-org-btn {
+    color: white;
+    background: black;
+    text-decoration: none;
+    padding: 1rem 5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
