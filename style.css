@@ -121,8 +121,15 @@ section article {
     color: black;
 }
 
+
 section h1 {
-    font-size: 3rem;
+    font-size: 4rem;
+}
+
+#hero h1 {
+    font-size: 5rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
 }
 
 
