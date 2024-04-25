@@ -86,7 +86,7 @@ header form button {
 }
 
 
-#hero {
+section {
     min-height: 600px;
     display: flex;
     flex-direction: column;
@@ -97,7 +97,7 @@ header form button {
     text-align: center;
 }
 
-#hero article {
+section article {
     max-width: 400px;
 }
 
@@ -121,6 +121,23 @@ header form button {
     color: black;
 }
 
-#hero h1 {
+section h1 {
     font-size: 3rem;
+}
+
+
+section:nth-of-type(2) h1 {
+    background: rgba(255,204,53,.4);
+    transform: skew(9deg,0deg);
+    font-style: italic;
+    margin-top: 4rem;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+
+}
+section:nth-of-type(2) article {
+    max-width: 700px;
+}
+section:nth-of-type(2) img {
+    width: 256px;
 }
